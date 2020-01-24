@@ -1,0 +1,10 @@
+
+
+Purpose: This function is designed to help developers visualise, how the progressive filling of any svg path will look like.
+
+Parameters: main(interval, loop?):
+		-> Interval: this is mandatory, this is the rate of filling of SVG.
+		-> loop:  this is optional, if passed as true, it will draw SVG in forward and reverse motion alternatively.
+					    if passed as false, it will only draw SVG in forward once.
+
+Functionality: It finds a path in the html body using querySelector(path) and applies fillig on it.
